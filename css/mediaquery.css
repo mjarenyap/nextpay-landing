@@ -1,10 +1,27 @@
 @media only screen and (max-width: 1029px) {
-	
+	#header-image {
+		width: var(--value-384) !important;
+	}
+
+	#header-button-container > * {
+		flex: 0 100%;
+		margin: var(--value-4) 0 !important;
+	}
+
+	#process-content > div {
+		flex: 0 24% !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
 	header {
-		padding: var(--value-48) var(--value-8) !important;
+		padding: var(--value-32) var(--value-16) !important;
+		padding-bottom: var(--value-96) !important;
 	}
 
 	section {
+		box-sizing: border-box !important;
 		padding: var(--value-96) var(--value-16) !important;
 	}
 
@@ -17,10 +34,11 @@
 		display: block !important;
 	}
 
-	/*#beta-button {
-		margin: 0 !important;
-		margin-bottom: var(--value-8) !important;
-	}*/
+	#header-logo {
+		display: block;
+		margin: 0 auto !important;
+		margin-bottom: var(--value-48) !important;
+	}
 
 	#header-button-container {
 		display: flex;
@@ -29,7 +47,7 @@
 
 	#header-button-container > * {
 		flex: 0 100%;
-		margin: var(--value-8) 0 !important;
+		margin: var(--value-4) 0 !important;
 	}
 
 	#header-image {
@@ -48,12 +66,12 @@
 	}
 
 	#bank-section {
-		padding: var(--value-64) 0 !important;
+		padding: var(--value-64) var(--value-16) !important;
 	}
 
 	.bank-item {
-		flex: 0 5% !important;
-		height: var(--value-96);
+		flex: 0 1% !important;
+		height: var(--value-64);
 	}
 
 	#process-content {
@@ -65,7 +83,7 @@
 	}
 
 	#process-content .featured-image {
-		width: 50% !important;
+		width: var(--value-96) !important;
 	}
 
 	.tight-width {

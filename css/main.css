@@ -32,6 +32,10 @@ header, section {
 	background-color: white;
 }
 
+header {
+	padding: var(--value-128) 3rem;
+}
+
 section > div.wrapper,
 header > div.wrapper {
 	margin: 0 auto;
@@ -78,7 +82,7 @@ b {
 }
 
 #process-content > div .featured-image {
-	width: var(--value-128);
+	width: var(--value-96);
 }
 
 .skew-right {
