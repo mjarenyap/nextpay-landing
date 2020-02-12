@@ -22,6 +22,10 @@
 	color: #4F4F4F;
 }
 
+p {
+	margin: 0;
+}
+
 header, section {
 	padding: var(--value-128) 0;
 	box-sizing: border-box;
@@ -35,6 +39,8 @@ header > div.wrapper {
 
 button {
 	margin: var(--value-32) 0;
+	padding-top: var(--value-12);
+	padding-bottom: var(--value-12);
 }
 
 b {
@@ -72,7 +78,7 @@ b {
 }
 
 #process-content > div .featured-image {
-	width: 80%;
+	width: var(--value-128);
 }
 
 .skew-right {

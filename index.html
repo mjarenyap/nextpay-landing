@@ -12,6 +12,7 @@
 		<!-- <script src="js/bootstrap.js" type="text/javascript"></script> -->
 	</head>
 	<body>
+
 		<header class="px-5">
 			<div class="wrapper">
 				<img src="assets/logo/NextPay.svg" id="header-logo" class="mb-5" />
@@ -25,13 +26,16 @@
 							<br/><br/>
 							Just one digital platform to pay them all.
 						</p>
-						<button class="btn btn-primary mr-2 px-5">Request BETA access</button>
-						<button class="btn btn-outline-primary px-5">Learn more</button>
+						<div id="header-button-container">
+							<button class="btn btn-primary mr-2 px-5" id="beta-button">Request BETA access</button>
+							<button class="btn btn-outline-primary px-5" id="learn-more-button">Learn more</button>
+						</div>
 					</div>
 					<img src="assets/illustrations/clip-1.png" class="d-block" id="header-image" />
 				</div>
 			</div>
 		</header>
+
 		<section class="bg-primary px-5 skew-left" id="bank-section">
 			<div class="wrapper">
 				<h1 class="text-center text-white mb-5">Send money to any major bank in the Philippines</h1>
@@ -50,22 +54,23 @@
 				</div>
 			</div>
 		</section>
-		<section class="bg-light px-5 skew-right">
+
+		<section class="bg-light px-5 skew-right" id="value-proposition-section">
 			<div class="wrapper">
 				<!-- process -->
 				<div class="d-flex flex-between align-items-top flex-wrap mb-5" id="process-content">
 					<div class="mr-4 text-center">
-						<img src="assets/illustrations/clip-1.png" class="featured-image mb-4" />
+						<img src="assets/illustrations/add-user-group.png" class="featured-image mb-4" />
 						<h3>Set up your employees</h3>
 						<p>Tell us a bit about you and we’ll get in touch shortly!</p>
 					</div>
 					<div class="mx-4 text-center">
-						<img src="assets/illustrations/clip-1.png" class="featured-image mb-4" />
+						<img src="assets/illustrations/community-grants.png" class="featured-image mb-4" />
 						<h3>Enter their salaries</h3>
 						<p>Tell us a bit about you and we’ll get in touch shortly!</p>
 					</div>
 					<div class="ml-4 text-center">
-						<img src="assets/illustrations/clip-1.png" class="featured-image mb-4" />
+						<img src="assets/illustrations/general-ledger.png" class="featured-image mb-4" />
 						<h3>Make it rain on payday</h3>
 						<p>Send money to your employees on payday, digitally, and all at once.</p>
 					</div>
@@ -73,6 +78,7 @@
 				<button class="btn btn-primary px-5 d-block mx-auto">Request BETA access</button>
 			</div>
 		</section>
+
 		<section class="no-bottom-padding">
 			<div class="wrapper tight-width mb-5">
 				<h1 class="text-primary text-center mb-5">We know that paydays can be a pain in the ass.</h1>
@@ -93,5 +99,12 @@
 			</div>
 			<img src="assets/illustrations/NP_Graphic.jpg" class="w-75 d-block m-auto" id="np-graphic" />
 		</section>
+
+		<footer class="bg-primary py-4">
+			<p class="text-white text-center">
+				Questions? Email 
+				<a href="mailto:info@nextpay.world"><u class="text-white">info@nextpay.world</u></a>
+			</p>
+		</footer>
 	</body>
 </html>

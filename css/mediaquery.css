@@ -1,4 +1,9 @@
-@media only screen and (max-width: 1029px){
+@media only screen and (max-width: 1029px) {
+	
+	header {
+		padding: var(--value-48) var(--value-8) !important;
+	}
+
 	section {
 		padding: var(--value-96) var(--value-16) !important;
 	}
@@ -9,8 +14,22 @@
 
 	button {
 		padding: var(--value-8) 0 !important;
-		margin: 0 auto !important;
 		display: block !important;
+	}
+
+	/*#beta-button {
+		margin: 0 !important;
+		margin-bottom: var(--value-8) !important;
+	}*/
+
+	#header-button-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#header-button-container > * {
+		flex: 0 100%;
+		margin: var(--value-8) 0 !important;
 	}
 
 	#header-image {
@@ -29,7 +48,7 @@
 	}
 
 	#bank-section {
-		padding: 3rem 0 !important;
+		padding: var(--value-64) 0 !important;
 	}
 
 	.bank-item {
@@ -46,7 +65,7 @@
 	}
 
 	#process-content .featured-image {
-		width: 100%;
+		width: 50% !important;
 	}
 
 	.tight-width {
