@@ -1,0 +1,100 @@
+:root {
+	--value-4: 0.25rem;
+	--value-8: 0.5rem;
+	--value-12: 0.75rem;
+	--value-16: 1rem;
+	--value-24: 1.5rem;
+	--value-32: 2rem;
+	--value-48: 3rem;
+	--value-64: 4rem;
+	--value-96: 6rem;
+	--value-128: 8rem;
+	--value-192: 12rem;
+	--value-256: 16rem;
+	--value-384: 24rem;
+	--value-512: 32rem;
+	--value-640: 40rem;
+	--value-768: 48rem;
+}
+
+* {
+	font-family: 'Roboto', system-ui, sans-serif !important;
+	color: #4F4F4F;
+}
+
+header, section {
+	padding: var(--value-128) 0;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+section > div.wrapper,
+header > div.wrapper {
+	margin: 0 auto;
+}
+
+button {
+	margin: var(--value-32) 0;
+}
+
+b {
+	color: inherit;
+}
+
+.tight-width {
+	width: 56rem;
+}
+
+.no-bottom-padding {
+	padding-bottom: 0 !important;
+}
+
+#header-logo {
+	width: var(--value-192);
+}
+
+#header-image {
+	width: 45%;
+}
+
+#subtitle {
+	font-size: 1.25rem;
+}
+
+.bank-item {
+	flex: 0 15%;
+	margin: var(--value-8);
+	height: var(--value-128);
+}
+
+#process-content > div {
+	flex: 0 30%;
+}
+
+#process-content > div .featured-image {
+	width: 80%;
+}
+
+.skew-right {
+	transform: skewY(8deg);
+}
+
+.skew-right > * {
+	transform: skewY(-8deg);
+}
+
+.skew-left {
+	transform: skewY(-172deg);
+}
+
+.skew-left > * {
+	transform: skewY(172deg);
+}
+
+/*#bank-section {
+	transform: skew(15deg, 15deg);
+}
+
+#bank-section div.wrapper {
+	transform: skew(-15deg, -15deg);
+}*/

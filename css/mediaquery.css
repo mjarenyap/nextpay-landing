@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1029px){
+	section {
+		padding: var(--value-96) var(--value-16) !important;
+	}
+
+	h1 {
+		font-size: var(--value-32);
+	}
+
+	button {
+		padding: var(--value-8) 0 !important;
+		margin: 0 auto !important;
+		display: block !important;
+	}
+
+	#header-image {
+		display: block !important;
+		margin: 0 auto !important;
+		margin-top: var(--value-64) !important;
+		width: 100% !important;
+	}
+
+	#header-content {
+		flex-direction: column !important;
+	}
+
+	#hero-content {
+		padding: 0 !important;
+	}
+
+	#bank-section {
+		padding: 3rem 0 !important;
+	}
+
+	.bank-item {
+		flex: 0 5% !important;
+		height: var(--value-96);
+	}
+
+	#process-content {
+		flex-direction: column !important;
+	}
+
+	#process-content > div {
+		margin: var(--value-32) 0 !important;
+	}
+
+	#process-content .featured-image {
+		width: 100%;
+	}
+
+	.tight-width {
+		width: 100% !important;
+	}
+
+	#np-graphic {
+		width: 100% !important;
+	}
+}
