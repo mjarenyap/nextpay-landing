@@ -69,10 +69,23 @@
 		padding: var(--value-64) var(--value-16) !important;
 	}
 
-	.bank-item {
-		flex: 0 1% !important;
-		height: var(--value-64);
+	.bank-wrapper {
+		flex: 0 28.4% !important;
+		padding: var(--value-16) var(--value-4);
 	}
+
+	.bank-wrapper > p {
+		font-size: var(--value-4);
+		display: none;
+	}
+
+	.bank-wrapper > u {
+		font-size: var(--value-12);
+	}
+
+	/*.bank-item {
+		height: var(--value-64);
+	}*/
 
 	#process-content {
 		flex-direction: column !important;

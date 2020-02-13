@@ -71,10 +71,22 @@ b {
 	font-size: 1.25rem;
 }
 
-.bank-item {
-	flex: 0 15%;
+.bank-wrapper {
+	flex: 0 16%;
 	margin: var(--value-8);
-	height: var(--value-128);
+	padding: var(--value-24) var(--value-16);
+	border-radius: var(--value-8);
+	background-color: white;
+	position: relative;
+}
+
+.bank-wrapper > p {
+	position: absolute;
+	bottom: var(--value-8);
+}
+
+.bank-item {
+	width: 100%;
 }
 
 #process-content > div {
